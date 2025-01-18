@@ -8,11 +8,11 @@ shape = input("Which shape do you want to draw [hexagon, square, pentagon]: ")
 
 if shape == "pentagon" or "Pentagon":
     side_length = int(input("What is the side length that you want: "))
-    num_sides = 5
-    angle = 360/num_sides
+    num_sides1 = 5
+    angle = 360/num_sides1
     pen.begin_fill()
 
-    for i in range (num_sides):
+    for i in range (num_sides1):
         pen.forward(side_length)
         pen.right(angle)
 
@@ -30,3 +30,5 @@ elif shape == "hexagon" or "Hexagon":
 
     pen.end_fill()
 # How come when I run this and type in hexagon it still draws a pentagon
+
+turtle.done()

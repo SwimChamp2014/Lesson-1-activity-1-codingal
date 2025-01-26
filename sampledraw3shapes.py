@@ -44,5 +44,4 @@ pen.hideturtle()
 
 turtle.done()
 
-# How come when I run this and type in hexagon it still draws a pentagon
-#the reason it works is since in the b
+]

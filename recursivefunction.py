@@ -3,7 +3,7 @@ def factorial(x):
     if x == 0 or x == 1:
         return 1
     else:
-        return x * factorial(x - 1) #This updates factorial(x) on line 1
+        return x * factorial(x - 1) #using factorial repeats the cycle
     print(x)
 
 

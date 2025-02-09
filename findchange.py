@@ -7,6 +7,6 @@ def change_calculator(amount_paid, cost):
     elif amount_paid > cost:
         return amount_paid - cost
     else:
-        return cost - amount_paid
+        return amount_paid - cost
 
-print("The amount of change that is required is", change_calculator(amount_paid, cost))
+print("The amount of change that is needed to be returned is", change_calculator(amount_paid, cost), "dollars")

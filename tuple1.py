@@ -13,9 +13,4 @@ r = (1,2,3,3,2,1)
 if (palind(r)):
     print("The Tuple is Flip-Flop")
 else:
-    print("The Tuple is not Flip-Flop
-    
-    
-    
-    " \
-    "")
+    print("The Tuple is not Flip-Flop")
